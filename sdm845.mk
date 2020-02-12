@@ -166,6 +166,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.sf.disable_blurs=1 \
     ro.sf.blurs_are_expensive=1
 
+# Freeform Multiwindow
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
