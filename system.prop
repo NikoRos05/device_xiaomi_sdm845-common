@@ -65,9 +65,6 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
-
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-05000-1
 
