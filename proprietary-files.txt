@@ -203,13 +203,11 @@ vendor/lib64/libhdr_tm.so|bd82eb65a5f7905e7a3b7c3a8770a0df2b718068
 vendor/lib/libhdr_tm.so|edfa2140a462a9da647fcd9fffc742688dd37b1e
 
 # Display (SDM)
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
-vendor/lib/libsdedrm.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
@@ -219,6 +217,10 @@ vendor/lib/libtinyxml2_1.so
 # Display (SDM) - from crosshatch - RP1A.200720.009
 vendor/lib64/libqseed3.so|1dc643f5af88cf61332c18f0f63c914070c99a09
 vendor/lib/libqseed3.so|d2766f857a1398681ebf72ec7e3039419ef25aa0
+
+# Display (SDM) - from beryllium - V11.0.9.0.QDGMIXM
+vendor/lib/libsdedrm.so|a35a2d0a7a4ea4edf808ebd2525920bdd5ada995
+vendor/lib64/libsdedrm.so|d64e13cb1b7e5d27fe5ab9f68c8c05ca390e352b
 
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
