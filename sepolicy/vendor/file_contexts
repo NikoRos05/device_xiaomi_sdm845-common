@@ -53,3 +53,6 @@
 # Sockets
 /dev/socket/audio_hw_socket                   u:object_r:audio_socket:s0
 /dev/socket/gps                               u:object_r:gps_socket:s0
+
+# widevine
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.3-service.clearkey    u:object_r:hal_drm_widevine_exec:s0
