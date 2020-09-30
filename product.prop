@@ -13,3 +13,6 @@ ro.config.low_ram=false
 
 # Media
 ro.media.recorder-max-base-layer-fps=60
+
+# Vulkan
+ro.hardware.vulkan=adreno
