@@ -148,10 +148,12 @@ PRODUCT_PACKAGES += \
     disable_configstore \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
+    libdisplayconfig.qti \
     libtinyxml \
     libvulkan \
     memtrack.sdm845 \
-    vendor.display.config@1.7 \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor \
     vendor.qti.hardware.display.allocator@1.0-service
 
 # DRM
